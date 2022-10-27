@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body style="box-sizing:border-box;text-align:center;font-family:'Roboto',sans-serif;font-weight: 100;background-image:linear-gradient(to right, #24ac7d,#A1FFCE,#FAFFD1);">
+    <form style="width:30%; background-color:#fdfff3; opacity:0.7 ; padding:40px; margin:0 auto;border-radius: 20px;" >
+        <h1 style="font-size:45px;color: #001b12;">Sign Up</h1>
+        <p style="color:rgb(0, 0, 0) ;">Create your account. It's free and only takes a minute.</p>
+        <input type="text"style="width:35%; padding:10px;font-weight:600; border:1px solid #248f69; border-radius:20px;" placeholder="First Name" required>
+        <input type="text" style="width:35%; padding:10px;font-weight:600; border:1px solid #248f69; border-radius:20px;margin-left: 10px;" placeholder="Last Name" required>
+        <ul style="list-style-type:none;">
+            <li><label for="dt">Birthday: </label><input type="date" id="dt" style="width:48%; padding:10px; margin:10px 0;font-weight:600; border:1px solid #248f69; border-radius:20px;"  required></li>
+            <li><label>Gender:</label><label>Male</label><input type="radio" style="accent-color: #248f69;" name="gnd" required> <label>Female</label><input type="radio" name="gnd"style="accent-color: #248f69;"required> <label>Other</label><input type="radio" name="gnd"style="accent-color: #248f69;"required></li>
+            <li><input type="email" style="width:65%; padding:10px;margin:10px 0;font-weight:600; border:1px solid #248f69; border-radius:20px;"placeholder="Email" required></li>
+            <li><input type="password" style="width:65%; padding:10px;margin:10px 0;font-weight:600; border:1px solid #248f69; border-radius:20px;" placeholder="Password" minlength="8" maxlength="12" required></li>
+            <li><input type="password" style="width:65%; padding:10px;margin:10px 0;font-weight:600; border:1px solid #248f69; border-radius:20px;" placeholder="Confirm Password" minlength="8" maxlength="12" required></li>
+            <li><input type="tel" style="width:65%; padding:10px;margin:10px 0;font-weight:600; border:1px solid #248f69; border-radius:20px;"placeholder="012-345-67-89" minlength="13" maxlength="13" pattern="[0-9]{3}-[0-9] {3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required></li>
+            <li><input type="text"style="width:65%; padding:10px;margin:10px 0 ;font-weight:600; border:1px solid #248f69; border-radius:20px;" placeholder="Address" required></li>
+            <li><input type="checkbox" style="width:20px;height:20px;accent-color:#248f69;"required><label>I accept the <a href="termsofuse.html"style="font-weight:400; color: #61877a;">Terms of Use</a> & <a href="privacy.html"style="font-weight:400; color: #61877a;">Privacy Policy</a></label></li>
+            <li><button style="width:72%; padding:20px;margin: 20px 0; border:1px solid #248f69; border-radius:20px;background-color:#248f69;color: #caf0e4; font-weight:600; font-size: 20px; cursor: pointer;">Sign Up</button></li>
+        </ul>
+        <p style="font-weight:600; color: #0f392b;">Already have an account? <a href ="index.html" style="font-weight:400; color: #61877a;">Log In</a></p>
+    </form>
+</body>
+</html>
